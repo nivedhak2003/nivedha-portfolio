@@ -1,0 +1,19 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.banner{
+    background-image: url(/Portfolio/images/sliderimg.jpg.jpg);
+    padding: 130px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.skill-padding{
+    padding: 70px 0;
+}
+.skillcard{
+    transition: transform 0.3s ease;
+}
+.skillcard:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
